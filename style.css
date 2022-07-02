@@ -34,7 +34,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 h2 {
@@ -57,6 +57,8 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
+
+  border-radius: 100px;
 }
 .btn:hover,
 .btn:active {
@@ -73,6 +75,10 @@ h2 {
   padding: 8px 12px;
 }
 
+img {
+  border-radius: 12px;
+}
+
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -82,7 +88,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -90,10 +96,12 @@ header {
 }
 
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
+
+  /* box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.02); */
 }
 
 .header-text {
@@ -149,6 +157,10 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
 .chair-box {
   padding: 24px;
 }
